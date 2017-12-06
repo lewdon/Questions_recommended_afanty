@@ -133,14 +133,15 @@ def getQuestionId(table, recom_set, diff, question_id):
             flag = 2
             while flag > 0:
                 subj_kp_diff = recom + str(difficulty)
-                sql = "select question_id from {0} where sub_kpoint_diff = '{1}' ".format(table, subj_kp_diff)
+                sql = "select question_id,knowledge_point from {0} where sub_kpoint_diff = '{1}' ".format(table, subj_kp_diff)
                 cur.execute(sql)
                 data = cur.fetchall()
 
                 if len(data) != 0:
                     random.seed(math.log(int(recom), 100) * (difficulty+1) * (n+1) * (flag + 1))
                     if data[random.randint(0,len(data)-1)]['question_id'] not in set(question_id):
-                        recom_list.append(data[random.randint(0,len(data)-1)]['question_id'])
+                        newdata = data[random.randint(0,len(data)-1)]
+                        recom_list.append([newdata['question_id'], newdata['knowledge_point']])
                         flag = -10
 
                 else:
