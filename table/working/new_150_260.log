@@ -1,0 +1,66 @@
+2017-11-28 17:30:39,063:DEBUG: Building prefix dict from the default dictionary ...
+2017-11-28 17:30:39,064:DEBUG: Loading model from cache /tmp/jieba.cache
+2017-11-28 17:30:41,234:DEBUG: Dumping model to file cache /tmp/jieba.cache
+2017-11-28 17:30:41,451:ERROR: Dump cache file failed.
+Traceback (most recent call last):
+  File "/data/home/liyanfeng/PYV3/lib/python3.5/site-packages/jieba/__init__.py", line 152, in initialize
+    _replace_file(fpath, cache_file)
+PermissionError: [Errno 1] Operation not permitted: '/tmp/tmpm7gtg0ep' -> '/tmp/jieba.cache'
+2017-11-28 17:30:41,452:DEBUG: Loading model cost 2.388 seconds.
+2017-11-28 17:30:41,452:DEBUG: Prefix dict has been built succesfully.
+2017-11-28 17:43:12,389:INFO: read the data from question_id = 112558395
+2017-11-28 18:12:57,355:INFO: read the data from question_id = 112898395
+2017-11-28 18:38:17,563:INFO: read the data from question_id = 113238395
+2017-11-28 18:59:03,460:INFO: read the data from question_id = 113578395
+2017-11-28 19:21:55,062:INFO: read the data from question_id = 113918395
+2017-11-28 19:43:44,198:INFO: read the data from question_id = 114258395
+2017-11-28 20:06:18,028:INFO: read the data from question_id = 114598395
+2017-11-28 20:28:08,241:INFO: read the data from question_id = 114938395
+2017-11-28 20:50:31,847:INFO: read the data from question_id = 115278395
+2017-11-28 21:13:41,620:INFO: read the data from question_id = 115618395
+2017-11-28 21:33:57,617:INFO: read the data from question_id = 115958395
+2017-11-28 21:57:37,788:INFO: read the data from question_id = 116298395
+2017-11-28 22:20:44,787:INFO: read the data from question_id = 116638395
+2017-11-28 22:42:24,871:INFO: read the data from question_id = 116978395
+2017-11-28 23:06:43,197:INFO: read the data from question_id = 117318395
+2017-11-28 23:31:31,971:INFO: read the data from question_id = 117658395
+2017-11-28 23:56:04,711:INFO: read the data from question_id = 117998395
+2017-11-29 00:20:50,293:INFO: read the data from question_id = 118338395
+2017-11-29 00:47:46,297:INFO: read the data from question_id = 118678395
+2017-11-29 01:07:29,014:INFO: read the data from question_id = 119018395
+2017-11-29 01:35:04,887:INFO: read the data from question_id = 119383404
+2017-11-29 01:53:13,285:INFO: read the data from question_id = 119763404
+2017-11-29 02:13:58,069:INFO: read the data from question_id = 120143404
+2017-11-29 02:36:04,088:INFO: read the data from question_id = 120523404
+2017-11-29 02:55:12,081:INFO: read the data from question_id = 120903404
+2017-11-29 03:18:09,348:INFO: read the data from question_id = 121283404
+2017-11-29 03:42:15,743:INFO: read the data from question_id = 140220115
+2017-11-29 04:04:15,141:INFO: read the data from question_id = 140600115
+2017-11-29 04:26:47,432:INFO: read the data from question_id = 140980115
+2017-11-29 04:51:31,443:INFO: read the data from question_id = 141360115
+2017-11-29 05:15:39,827:INFO: read the data from question_id = 141740115
+2017-11-29 05:37:15,661:INFO: read the data from question_id = 142120115
+2017-11-29 06:01:43,672:INFO: read the data from question_id = 142500115
+2017-11-29 06:27:29,065:INFO: read the data from question_id = 142880115
+2017-11-29 06:51:25,683:INFO: read the data from question_id = 143260134
+2017-11-29 07:14:42,880:INFO: read the data from question_id = 143640134
+2017-11-29 07:39:19,340:INFO: read the data from question_id = 144020134
+2017-11-29 08:05:00,779:INFO: read the data from question_id = 144400134
+2017-11-29 08:30:19,438:INFO: read the data from question_id = 144780134
+2017-11-29 08:53:38,339:INFO: read the data from question_id = 145160134
+2017-11-29 09:18:53,012:INFO: read the data from question_id = 146734778
+2017-11-29 09:45:02,339:INFO: read the data from question_id = 544381066
+2017-11-29 10:11:50,063:INFO: read the data from question_id = 544761066
+2017-11-29 10:29:59,139:INFO: read the data from question_id = 545141066
+2017-11-29 10:45:37,242:INFO: read the data from question_id = 545521066
+2017-11-29 11:04:02,186:INFO: read the data from question_id = 545901066
+2017-11-29 11:26:39,388:INFO: read the data from question_id = 546281066
+2017-11-29 11:42:32,425:INFO: read the data from question_id = 546661066
+2017-11-29 11:58:09,727:INFO: read the data from question_id = 547041066
+2017-11-29 12:13:55,235:INFO: read the data from question_id = 547421066
+2017-11-29 12:29:45,153:INFO: read the data from question_id = 547801066
+2017-11-29 12:45:07,844:INFO: read the data from question_id = 548181066
+2017-11-29 13:00:36,175:INFO: read the data from question_id = 548561066
+2017-11-29 13:16:11,893:INFO: read the data from question_id = 548941066
+2017-11-29 13:31:56,739:INFO: read the data from question_id = 549321066
+2017-11-29 13:47:00,325:INFO: read the data from question_id = 549701066
